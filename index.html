@@ -1,0 +1,159 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>الخلية مع الأستاذ سامي (دقيقة واحدة)</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f3f6fb;--fg:#1d2733}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10151c;--fg:#e8eef6}}
+:root[data-theme="dark"]{--bg:#10151c;--fg:#e8eef6}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Segoe UI",Tahoma,"Noto Naskh Arabic",Arial,sans-serif;display:flex;flex-direction:column;align-items:center;gap:10px;padding:10px}
+#stage{position:relative;width:min(100%,calc((100vh - 90px)*1.7778));aspect-ratio:16/9;container-type:inline-size;border-radius:14px;overflow:hidden;background:#dff0ff;box-shadow:0 6px 24px rgba(0,0,0,.3)}
+svg{width:100%;height:100%;display:block;direction:ltr}
+.lbl{opacity:0;transition:opacity .6s}.lbl.on{opacity:1}.f{transition:opacity .8s}
+.hl{animation:pulse 1s ease-in-out 3}@keyframes pulse{50%{filter:brightness(1.3) drop-shadow(0 0 8px #ffb703)}}
+.arm{transform-box:fill-box;transform-origin:0 100%;animation:wave 2s ease-in-out infinite}@keyframes wave{50%{transform:rotate(-12deg)}}
+.bob{animation:bob 2.4s ease-in-out infinite}@keyframes bob{50%{transform:translateY(-4px)}}
+#sub{position:absolute;inset:auto 3% 3% 3%;background:rgba(10,15,25,.8);color:#fff;font-size:2.1cqw;line-height:1.55;padding:.6cqw 1.5cqw;border-radius:1cqw;text-align:center;opacity:0;transition:opacity .3s}
+#bar{position:absolute;left:0;bottom:0;height:.8cqw;background:#ff8a00;width:0}
+#ov{position:absolute;inset:0;background:rgba(15,30,60,.72);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.5cqw;color:#fff;font-size:3cqw;font-weight:700;text-align:center}
+button{font:inherit;cursor:pointer;border:0;border-radius:2cqw;background:#ff8a00;color:#fff;padding:1cqw 4cqw;font-size:3cqw;font-weight:700}
+#tools{font-size:14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:center}
+#tools button{font-size:14px;padding:6px 16px;border-radius:20px;background:#3b6fd4}
+#txt{display:none;position:relative;box-sizing:border-box;width:min(100%,calc((100vh - 270px)*1.7778));height:150px;overflow:auto;background:#fff;color:#1d2733;border-radius:12px;padding:10px 16px;font-size:clamp(15px,1.7vw,20px);line-height:1.9;box-shadow:0 2px 10px rgba(0,0,0,.2)}#txt span{padding:1px 4px;border-radius:6px;transition:background .3s}#txt span.act{background:#ffe9a8;font-weight:700}#sub{font-size:1.8cqw!important;text-align:right!important;line-height:1.6!important}#sub span{padding:0 3px;border-radius:6px;transition:background .3s}#sub span.act{background:#ffb703;color:#111}</style></head><body>
+<div id="stage">
+<svg id="svg" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#222"/></marker></defs>
+<rect width="960" height="540" fill="#dff0ff"/><rect y="455" width="960" height="85" fill="#c9d6e8"/>
+<rect x="330" y="15" width="620" height="430" rx="18" fill="#fff" stroke="#8b5a2b" stroke-width="8"/>
+<g transform="translate(165,335)"><g class="bob">
+<rect x="-62" y="0" width="124" height="125" rx="26" fill="#fff" stroke="#9fb3c8" stroke-width="3"/>
+<path d="M-18 0L0 36L18 0Z" fill="#2d6cdf"/><rect x="-26" y="62" width="52" height="24" rx="5" fill="#ffe08a" stroke="#c9a227"/><text x="0" y="80" text-anchor="middle" font-size="15" font-weight="700" fill="#333">أ. سامي</text>
+<circle cx="-56" cy="-60" r="9" fill="#f6c89f"/><circle cx="56" cy="-60" r="9" fill="#f6c89f"/>
+<circle cx="0" cy="-62" r="56" fill="#f6c89f" stroke="#c9915f" stroke-width="3"/>
+<path d="M-56 -70Q-50 -125 0 -122Q50 -125 56 -70Q30 -95 0 -92Q-30 -95 -56 -70Z" fill="#3b2a20"/>
+<circle cx="-22" cy="-66" r="15" fill="#fff" fill-opacity=".6" stroke="#222" stroke-width="3"/><circle cx="22" cy="-66" r="15" fill="#fff" fill-opacity=".6" stroke="#222" stroke-width="3"/><line x1="-7" y1="-66" x2="7" y2="-66" stroke="#222" stroke-width="3"/>
+<circle cx="-22" cy="-66" r="4" fill="#222"/><circle cx="22" cy="-66" r="4" fill="#222"/>
+<path d="M-24 -42Q-12 -52 0 -44Q12 -52 24 -42Q12 -36 0 -40Q-12 -36 -24 -42Z" fill="#3b2a20"/>
+<ellipse id="mouth" cx="0" cy="-28" rx="13" ry="3" fill="#8b1e2d"/>
+<g class="arm"><line x1="58" y1="22" x2="125" y2="-25" stroke="#fff" stroke-width="24" stroke-linecap="round"/><circle cx="130" cy="-29" r="12" fill="#f6c89f"/></g>
+</g></g>
+<g id="board"></g>
+</svg>
+<div id="sub"></div><div id="bar"></div>
+<div id="ov"><div>🎓 الخلية — وحدة البناء والوظيفة في الكائنات الحية</div><div style="font-size:2cqw;font-weight:400">مع الأستاذ سامي · دقيقة واحدة</div><button id="go">▶ ابدأ الدرس</button></div>
+</div>
+<div id="txt">📖 الشرح المكتوب سيظهر هنا أثناء الدرس.</div><div id="tools"><button id="mute">🔊 الصوت: يعمل</button><span>للحصول على ملف فيديو: شغّل الدرس ثم سجّل الشاشة مع صوت الجهاز.</span></div>
+<script>
+const $=s=>document.querySelector(s);
+const on=i=>$('#'+i)&&$('#'+i).classList.add('on');
+const off=i=>$('#'+i)&&$('#'+i).classList.remove('on');
+function reveal(n){on('l-'+n);const p=$('#p-'+n);if(p){p.classList.remove('hl');void p.getBoundingClientRect();p.classList.add('hl')}}
+const only=id=>document.querySelectorAll('.f').forEach(e=>e.style.opacity=e.id===id?1:0);
+const chip=(id,x,y,t,tx,ty,w=160)=>{const sy=ty<y?y-17:y+17;return `<g class="lbl" id="l-${id}"><line x1="${x}" y1="${sy}" x2="${tx}" y2="${ty}" stroke="#222" stroke-width="3" marker-end="url(#ar)"/><rect x="${x-w/2}" y="${y-17}" width="${w}" height="34" rx="17" fill="#fff" stroke="#222" stroke-width="2"/><text x="${x}" y="${y+7}" text-anchor="middle" font-size="21" font-weight="700" fill="#222">${t}</text></g>`};
+const nuc=(x,y,r)=>`<g id="p-nuc"><circle cx="${x}" cy="${y}" r="${r}" fill="#b9a6f0" stroke="#6d4fd6" stroke-width="4"/><circle cx="${x+8}" cy="${y-6}" r="${r*.35}" fill="#6d4fd6"/></g>`;
+function animal(l){return `<ellipse id="p-mem" cx="620" cy="270" rx="210" ry="150" fill="#ffd9e6" stroke="#e0457b" stroke-width="9"/><ellipse id="p-cyt" cx="620" cy="270" rx="198" ry="138" fill="#ffeaf1"/>${nuc(590,245,48)}
+<g id="p-mito"><ellipse cx="740" cy="310" rx="34" ry="20" fill="#ff9f43" stroke="#d9731a" stroke-width="3" transform="rotate(-20 740 310)"/><path d="M722 312Q732 300 740 312T758 304" stroke="#d9731a" stroke-width="3" fill="none"/></g>
+<g id="p-ribo" fill="#2c3e50">${[[470,300],[490,318],[510,296],[530,325],[480,335],[690,200],[660,350],[560,170]].map(p=>`<circle cx="${p[0]}" cy="${p[1]}" r="6"/>`).join('')}</g>`
++(l?chip('mem',620,72,'الغشاء الخلوي',620,121)+chip('nuc',545,172,'النواة',580,198,120)+chip('cyt',720,205,'السيتوبلازم',700,248)+chip('mito',700,385,'الميتوكوندريا',728,326,175)+chip('ribo',480,378,'الريبوسومات',488,330):'')}
+function plant(l){return `<rect id="p-wall" x="400" y="115" width="440" height="290" rx="22" fill="#e8f5d0" stroke="#3b8f2f" stroke-width="14"/><rect x="412" y="127" width="416" height="266" rx="14" fill="#f4fbe6" stroke="#e0457b" stroke-width="3"/>
+<ellipse id="p-vac" cx="700" cy="262" rx="100" ry="85" fill="#bfe3ff" stroke="#4a9ad6" stroke-width="4"/>${nuc(500,225,38)}
+<g id="p-chl">${[[555,335],[640,160],[470,320],[790,160]].map(p=>`<ellipse cx="${p[0]}" cy="${p[1]}" rx="30" ry="17" fill="#3fae49" stroke="#1d7a2c" stroke-width="3"/><path d="M${p[0]-18} ${p[1]}H${p[0]+18}" stroke="#1d7a2c" stroke-width="2"/>`).join('')}</g>`
++(l?chip('wall',620,72,'الجدار الخلوي',620,112)+chip('chl',520,372,'البلاستيدات الخضراء',552,346,210)+chip('vac',730,378,'الفجوة العصارية',712,347,185):'')}
+const tissue=()=>{let s='';for(let r=0;r<4;r++)for(let c=0;c<6;c++){const x=480+c*70+(r%2)*35,y=150+r*78;s+=`<circle cx="${x}" cy="${y}" r="36" fill="#bfe8a0" stroke="#3b8f2f" stroke-width="4"/><circle cx="${x}" cy="${y}" r="9" fill="#6d4fd6"/>`}return s};
+const cap=t=>`<text x="640" y="62" text-anchor="middle" font-size="32" font-weight="800" fill="#1d4e89">${t}</text>`;
+const rows=[['الجزء','حيوانية','نباتية'],['الغشاء الخلوي','✔','✔'],['السيتوبلازم','✔','✔'],['النواة','✔','✔'],['عضيات مشتركة','✔','✔'],['جدار خلوي','✘','✔'],['بلاستيدات خضراء','✘','✔'],['فجوة عصارية كبيرة','✘','✔']];
+const table=()=>rows.map((r,i)=>{const y=70+i*48,h=i==0,d=i>4;const col=v=>h?'#fff':v=='✔'?'#1a9a46':'#d33';return `<g class="lbl" id="t${i}"><rect x="350" y="${y-30}" width="580" height="42" rx="10" fill="${h?'#1d4e89':d?'#fff3cd':i%2?'#eef5ff':'#fff'}" stroke="#c9d6e8"/><text x="800" y="${y}" text-anchor="middle" font-size="22" font-weight="700" fill="${h?'#fff':'#222'}">${r[0]}</text><text x="620" y="${y}" text-anchor="middle" font-size="24" font-weight="700" fill="${col(r[1])}">${r[1]}</text><text x="450" y="${y}" text-anchor="middle" font-size="24" font-weight="700" fill="${col(r[2])}">${r[2]}</text></g>`}).join('');
+const tx=(id,y,t,fs=22,c='#222')=>`<text class="lbl" id="${id}" x="640" y="${y}" text-anchor="middle" font-size="${fs}" font-weight="700" fill="${c}">${t}</text>`;
+const SC=[
+{b:()=>`<g id="a" class="f"><text x="640" y="270" font-size="150" text-anchor="middle">🌍</text><text x="480" y="150" font-size="64">🧍</text><text x="760" y="160" font-size="64">🐕</text><text x="540" y="400" font-size="64">🌿</text><text x="740" y="390" font-size="64">🐦</text>${cap('الكائنات الحية')}</g><g id="b" class="f" style="opacity:0"><text x="640" y="340" font-size="230" text-anchor="middle">🍃</text>${cap('ورقة نبات')}</g><g id="c" class="f" style="opacity:0">${tissue()}${cap('نسيج')}</g><g id="d" class="f" style="opacity:0">${plant(0)}${cap('خلية واحدة')}</g>`,
+ st:[[0,()=>only('a')],[6,()=>only('b')],[10.5,()=>only('c')],[15,()=>only('d')]],
+ say:'هل تعلم أن أجسام الكائنات الحية، على اختلاف أشكالها وأحجامها، تتكون من وحدات صغيرة جدًا تُسمى الخلايا؟ هيا نتعرف على هذه الوحدة المدهشة التي تُعد أساس الحياة.'},
+{b:()=>`${cap('الخلية: أصغر وحدة بنائية ووظيفية')}<g transform="translate(480,265) scale(.55) translate(-620,-270)">${animal(0)}</g>${tx('r1',190,'🦠 كائنات من خلية واحدة',22)}${tx('r2',260,'🧍🌿 كائنات من خلايا متخصصة',22)}${tx('r3',335,'💪 حركة · 🩸 نقل المواد · 🌱 نمو',22,'#1d4e89')}`.replace(/x="640" y="(190|260|335)"/g,'x="775" y="$1"'),
+ st:[[8,()=>on('r1')],[12,()=>on('r2')],[18,()=>on('r3')]],
+ say:'الخلية هي أصغر وحدة بنائية ووظيفية في الكائن الحي. وتختلف الخلايا في أشكالها وأحجامها ووظائفها؛ فبعضها يساعد على الحركة، وبعضها ينقل المواد، وبعضها يساهم في النمو.'},
+{b:()=>`<text x="860" y="60" text-anchor="middle" font-size="24" font-weight="800" fill="#e0457b">الخلية الحيوانية</text>${animal(1)}`,
+ st:[[2,()=>reveal('mem')],[12,()=>reveal('cyt')],[21,()=>reveal('nuc')],[31,()=>reveal('mito')],[41,()=>reveal('ribo')]],
+ say:'لنبدأ بالخلية الحيوانية. الغشاء الخلوي ينظم دخول المواد إلى الخلية وخروجها. السيتوبلازم مادة هلامية توجد فيها العضيات، وتحدث فيها تفاعلات حيوية عديدة. النواة تحتوي على معظم المادة الوراثية، وتنظم أنشطة الخلية. الميتوكوندريا تنتج معظم الطاقة التي تحتاجها الخلية. والريبوسومات تصنع البروتينات.'},
+{b:()=>`<text x="440" y="62" text-anchor="middle" font-size="24" font-weight="800" fill="#2f7d32">الخلية النباتية</text>${plant(1)}<g class="lbl" id="sun"><text x="890" y="100" font-size="58" text-anchor="middle">☀️</text><line x1="868" y1="112" x2="672" y2="164" stroke="#f59e0b" stroke-width="4" stroke-dasharray="8 6" marker-end="url(#ar)"/></g>${tx('eq',433,'ضوء الشمس + ماء + ثاني أكسيد الكربون = غذاء + أكسجين',19,'#1d7a2c')}`,
+ st:[[7,()=>reveal('wall')],[14,()=>{reveal('chl');on('sun')}],[22,()=>on('eq')],[30,()=>reveal('vac')]],
+ say:'الخلية النباتية تشترك مع الخلية الحيوانية في الغشاء الخلوي والسيتوبلازم والنواة، وتتميز بثلاثة أجزاء. الجدار الخلوي يوفر الدعم والحماية ويحافظ على شكل الخلية. البلاستيدات الخضراء تحتوي على الكلوروفيل، وتستقبل ضوء الشمس لتصنع الغذاء بالبناء الضوئي. أما الفجوة العصارية الكبيرة فتخزن الماء ومواد أخرى، وتحافظ على ضغط الخلية.'},
+{b:()=>table(),st:[[0.5,()=>on('t0')],[2,()=>on('t1')],[4,()=>on('t2')],[6,()=>on('t3')],[8,()=>on('t4')],[13,()=>on('t5')],[16,()=>on('t6')],[19,()=>on('t7')]],
+ say:'عند المقارنة، تشترك الخليتان في الغشاء الخلوي والسيتوبلازم والنواة والعضيات. وتتميز الخلية النباتية عادةً بوجود جدار خلوي وبلاستيدات خضراء وفجوة عصارية كبيرة.'},
+{b:()=>`${cap('🧠 اختبر نفسك')}${tx('q1',125,'١) ما الجزء الذي ينظم دخول المواد إلى الخلية وخروجها؟',20)}${tx('a1',165,'الغشاء الخلوي ✔',26,'#1a9a46')}${tx('q2',225,'٢) ما الجزء الذي يساعد الخلية النباتية على البناء الضوئي؟',20)}${tx('a2',265,'البلاستيدات الخضراء ✔',26,'#1a9a46')}${tx('th',340,'⏳ فكّر قليلًا...',30,'#d97706')}${tx('f1',345,'الخلية وحدة صغيرة، لكنها أساس بناء',27,'#1d4e89')}${tx('f2',390,'الكائنات الحية واستمرار الحياة',27,'#1d4e89')}`,
+ st:[[1,()=>on('q1')],[4,()=>on('q2')],[8,()=>on('th')],[11.5,()=>{off('th');on('a1')}],[13,()=>on('a2')],[15.5,()=>{on('f1');on('f2')}]],
+ say:'والآن اختبر نفسك. ما الجزء الذي ينظم دخول المواد إلى الخلية وخروجها؟ وما الجزء الذي يساعد الخلية النباتية على القيام بعملية البناء الضوئي؟ فكّر قليلًا. الإجابة: الغشاء الخلوي، والبلاستيدات الخضراء. الخلية وحدة صغيرة، لكنها أساس بناء الكائنات الحية واستمرار الحياة.'}
+];
+const D=[20,25,50,40,25,20],S=[];let a=0;D.forEach(d=>{S.push(a);a+=d});
+let begin,raf,cur=-1,fired=[],sents=[],muted=false;
+function speak(t){if(muted||!('speechSynthesis'in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='ar-SA';u.rate=.88;const v=speechSynthesis.getVoices().find(v=>v.lang.toLowerCase().startsWith('ar'));if(v)u.voice=v;speechSynthesis.speak(u)}
+function enter(i){cur=i;fired=[];$('#board').innerHTML=SC[i].b();const p=SC[i].say.split(/(?<=[.؟])\s*/).filter(Boolean),tot=p.reduce((n,s)=>n+s.length,0);let c=0;sents=p.map(s=>{const st=c/tot*D[i]*.88;c+=s.length;return[st,s]});speak(SC[i].say)}
+function loop(now){const t=(now-begin)/1000;if(t>=180){end();return}
+let i=0;while(i<5&&t>=S[i+1])i++;if(i!==cur)enter(i);const s=t-S[i];
+SC[i].st.forEach(([x,f],k)=>{if(!fired[k]&&s>=x){fired[k]=1;f()}});
+let cs='';sents.forEach(([x,z])=>{if(s>=x)cs=z});$('#sub').textContent=cs;$('#sub').style.opacity=s<D[i]*.95?1:0;
+$('#mouth').setAttribute('ry',s<D[i]*.9?3+Math.abs(Math.sin(t*14))*11:3);
+$('#bar').style.width=t/1.8+'%';raf=requestAnimationFrame(loop)}
+function start(){$('#ov').style.display='none';cur=-1;begin=performance.now();cancelAnimationFrame(raf);raf=requestAnimationFrame(loop)}
+function end(){if('speechSynthesis'in window)speechSynthesis.cancel();$('#sub').style.opacity=0;$('#mouth').setAttribute('ry',3);const o=$('#ov');o.style.display='flex';o.innerHTML='<div>🎉 انتهى الدرس</div><button id="go">↻ إعادة التشغيل</button>';$('#go').onclick=start}
+$('#go').onclick=start;
+$('#mute').onclick=e=>{muted=!muted;if(muted&&'speechSynthesis'in window)speechSynthesis.cancel();e.target.textContent=muted?'🔇 الصوت: متوقف':'🔊 الصوت: يعمل'};
+</script><script>
+D.length=0;[14,16,34,26,16,14].forEach(d=>D.push(d));S.length=0;let q0=0;D.forEach(d=>{S.push(q0);q0+=d});
+const X=[
+{st:[[0,()=>only('a')],[4,()=>only('b')],[7.5,()=>only('c')],[10.5,()=>only('d')]],
+ say:'هل تعلم أن أجسام الكائنات الحية جميعها تتكون من وحدات صغيرة جدًا تُسمى الخلايا؟ هيا نقترب من ورقة نبات حتى نصل إلى خلية واحدة.',
+ txt:['الكائنات الحية حولنا كثيرة ومتنوعة: إنسان وحيوانات وطيور ونباتات.','رغم اختلاف أشكالها وأحجامها، فإنها جميعًا مبنية من وحدات صغيرة جدًا لا نراها بالعين المجردة.','هذه الوحدات تُسمى الخلايا، وهي أساس الحياة.','عندما نقترب من ورقة نبات نجد أنها مكوّنة من نسيج، والنسيج مجموعة خلايا متشابهة تؤدي وظيفة واحدة.','وإذا كبّرنا النسيج أكثر وصلنا إلى الخلية الواحدة، وهي أصغر وحدة بنائية ووظيفية في الكائن الحي.']},
+{st:[[5,()=>on('r1')],[8,()=>on('r2')],[11,()=>on('r3')]],
+ say:'الخلية هي أصغر وحدة بنائية ووظيفية في الكائن الحي. بعض الكائنات تتكون من خلية واحدة، وبعضها من خلايا كثيرة متخصصة، وتختلف في الحركة ونقل المواد والنمو.',
+ txt:['الخلية هي أصغر وحدة بنائية ووظيفية في الكائن الحي؛ أي أنها وحدة البناء ووحدة العمل معًا.','بعض الكائنات تتكون من خلية واحدة فقط، مثل البكتيريا والأميبا، وتقوم هذه الخلية بجميع وظائف الحياة.','أما الإنسان ومعظم النباتات والحيوانات فتتكون من عدد كبير جدًا من الخلايا المتخصصة التي تعمل معًا.','تختلف الخلايا في أشكالها وأحجامها ووظائفها؛ فخلايا العضلات تساعد على الحركة، وخلايا الدم تنقل المواد، وخلايا أخرى تساهم في النمو.']},
+{st:[[2.5,()=>reveal('mem')],[8.5,()=>reveal('cyt')],[16.5,()=>reveal('nuc')],[22.7,()=>reveal('mito')],[27.3,()=>reveal('ribo')]],
+ say:SC[2].say,
+ txt:['الخلية الحيوانية هي الخلية التي تكوّن أجسام الحيوانات والإنسان، وتتكون من أجزاء رئيسية يؤدي كل منها وظيفة محددة.','الغشاء الخلوي: غلاف رقيق يحيط بالخلية ويتحكم في دخول المواد إليها وخروجها منها.','السيتوبلازم: مادة هلامية تملأ الخلية، وتوجد فيها العضيات، وتحدث فيها تفاعلات حيوية كثيرة.','النواة: تحتوي على معظم المادة الوراثية، وتنظم أنشطة الخلية المختلفة، فهي أشبه بمركز التحكم.','الميتوكوندريا: تنتج معظم الطاقة التي تستخدمها الخلية في عملياتها الحيوية.','الريبوسومات: أجسام صغيرة جدًا تصنع البروتينات التي تحتاجها الخلية.']},
+{st:[[9.5,()=>reveal('wall')],[13.5,()=>{reveal('chl');on('sun')}],[17,()=>on('eq')],[20,()=>reveal('vac')]],
+ say:'الخلية النباتية تشترك مع الحيوانية في الغشاء والسيتوبلازم والنواة، وتتميز بثلاثة أجزاء. الجدار الخلوي يدعم الخلية ويحميها. البلاستيدات الخضراء تلتقط ضوء الشمس لتصنع الغذاء. والفجوة العصارية الكبيرة تخزن الماء.',
+ txt:['الخلية النباتية تشترك مع الخلية الحيوانية في الغشاء الخلوي والسيتوبلازم والنواة والميتوكوندريا والريبوسومات، لكنها تتميز عادةً بثلاثة أجزاء.','الجدار الخلوي: طبقة خارجية قوية توفر الدعم والحماية وتساعد على الحفاظ على شكل الخلية.','البلاستيدات الخضراء: تحتوي على الكلوروفيل وتستقبل ضوء الشمس، وبها يصنع النبات غذاءه في عملية البناء الضوئي.','الفجوة العصارية الكبيرة: تخزن الماء ومواد أخرى، وتساعد في الحفاظ على ضغط الخلية.']},
+{st:[[0.3,()=>on('t0')],[1.5,()=>on('t1')],[3,()=>on('t2')],[4.5,()=>on('t3')],[6,()=>on('t4')],[8,()=>on('t5')],[10,()=>on('t6')],[12,()=>on('t7')]],
+ say:'تشترك الخليتان في الغشاء الخلوي والسيتوبلازم والنواة. وتتميز الخلية النباتية بالجدار الخلوي والبلاستيدات الخضراء والفجوة الكبيرة.',
+ txt:['تشترك الخليتان في الغشاء الخلوي والسيتوبلازم والنواة والعضيات المشتركة، لأن هذه الأجزاء ضرورية لحياة أي خلية.','وتتميز الخلية النباتية عادةً بوجود الجدار الخلوي والبلاستيدات الخضراء والفجوة العصارية الكبيرة، وهي أجزاء لا توجد في الخلية الحيوانية.']},
+{st:[[1.5,()=>on('q1')],[3.5,()=>on('q2')],[5.5,()=>on('th')],[7.5,()=>{off('th');on('a1')}],[8.8,()=>on('a2')],[10.3,()=>{on('f1');on('f2')}]],
+ say:'اختبر نفسك. ما الجزء الذي ينظم دخول المواد؟ وما الجزء المسؤول عن البناء الضوئي؟ الغشاء الخلوي، والبلاستيدات الخضراء. الخلية وحدة صغيرة، لكنها أساس الحياة.',
+ txt:['حان وقت التقويم، فلنختبر ما تعلمناه.','السؤال الأول: ما الجزء الذي ينظم دخول المواد إلى الخلية وخروجها؟','السؤال الثاني: ما الجزء الذي يساعد الخلية النباتية على القيام بعملية البناء الضوئي؟','فكّر قليلًا ثم قارن إجابتك: الغشاء الخلوي ينظم دخول المواد وخروجها، والبلاستيدات الخضراء تقوم بالبناء الضوئي.','الخلية وحدة صغيرة، لكنها أساس بناء الكائنات الحية واستمرار الحياة.']}];
+X.forEach((x,i)=>Object.assign(SC[i],x));
+function enter(i){cur=i;fired=[];$('#board').innerHTML=SC[i].b();const T=SC[i].txt;$('#txt').innerHTML=T.map((s,k)=>`<span id="s${k}">${s}</span>`).join(' ');const tot=T.reduce((n,s)=>n+s.length,0);let c=0;sents=T.map(s=>{const st=c/tot*D[i]*.9;c+=s.length;return st});$('#txt').scrollTop=0;speak(SC[i].say)}
+function loop(now){const t=(now-begin)/1000;if(t>=120){end();return}
+let i=0;while(i<5&&t>=S[i+1])i++;if(i!==cur)enter(i);const s=t-S[i];
+SC[i].st.forEach(([x,f],k)=>{if(!fired[k]&&s>=x){fired[k]=1;f()}});
+let k=0;sents.forEach((x,j)=>{if(s>=x)k=j});$('#sub').textContent=SC[i].txt[k];$('#sub').style.opacity=s<D[i]*.95?1:0;document.querySelectorAll('#txt span').forEach((e,j)=>e.classList.toggle('act',j==k));const e=$('#s'+k);if(e)$('#txt').scrollTop=Math.max(0,e.offsetTop-24);
+$('#mouth').setAttribute('ry',s<D[i]*.85?3+Math.abs(Math.sin(t*14))*11:3);
+$('#bar').style.width=t/1.2+'%';raf=requestAnimationFrame(loop)}
+</script><script>
+D.length=0;[7,8,17,13,8,7].forEach(d=>D.push(d));S.length=0;let q1=0;D.forEach(d=>{S.push(q1);q1+=d});
+const b3=SC[3].b;SC[3].b=()=>b3().replace('y="433"','y="424"');
+const Y=[
+{st:[[0,()=>only('a')],[2,()=>only('b')],[3.7,()=>only('c')],[5.2,()=>only('d')]],
+ say:'هل تعلم أن جميع الكائنات الحية تتكون من وحدات صغيرة تُسمى الخلايا؟',
+ txt:['الكائنات الحية حولنا كثيرة ومتنوعة: إنسان وحيوانات وطيور ونباتات.','ورغم اختلاف أشكالها وأحجامها، فإنها جميعًا مبنية من وحدات صغيرة جدًا لا تُرى بالعين المجردة، تُسمى الخلايا.','وعندما نقترب من ورقة نبات نجد نسيجًا، وهو مجموعة خلايا متشابهة تؤدي وظيفة واحدة، ثم نصل إلى الخلية الواحدة.']},
+{st:[[2.5,()=>on('r1')],[4,()=>on('r2')],[5.5,()=>on('r3')]],
+ say:'الخلية هي أصغر وحدة بنائية ووظيفية في الكائن الحي، وتختلف في شكلها ووظيفتها.',
+ txt:['الخلية هي أصغر وحدة بنائية ووظيفية في الكائن الحي؛ فهي وحدة البناء ووحدة العمل معًا.','بعض الكائنات، مثل البكتيريا والأميبا، تتكون من خلية واحدة فقط تقوم بجميع وظائف الحياة.','أما الإنسان ومعظم النباتات والحيوانات فتتكون من عدد كبير جدًا من الخلايا المتخصصة التي تعمل معًا.','وتختلف الخلايا في أشكالها ووظائفها: فخلايا العضلات تساعد على الحركة، وخلايا الدم تنقل المواد، وخلايا أخرى تساهم في النمو.']},
+{st:[[1.8,()=>reveal('mem')],[4.8,()=>reveal('cyt')],[7.2,()=>reveal('nuc')],[10.4,()=>reveal('mito')],[11.6,()=>reveal('ribo')]],
+ say:'الخلية الحيوانية لها أجزاء مهمة. الغشاء الخلوي ينظم دخول المواد إلى الخلية وخروجها. السيتوبلازم مادة هلامية توجد فيها العضيات. النواة تحتوي على المادة الوراثية وتنظم أنشطة الخلية. الميتوكوندريا تنتج الطاقة. والريبوسومات تصنع البروتينات.',
+ txt:['الخلية الحيوانية تكوّن أجسام الحيوانات والإنسان، ولكل جزء فيها وظيفة محددة.','الغشاء الخلوي: غلاف رقيق يحيط بالخلية وينظم دخول المواد إليها وخروجها.','السيتوبلازم: مادة هلامية فيها العضيات، وتحدث فيها تفاعلات حيوية كثيرة.','النواة: تحتوي على معظم المادة الوراثية وتنظم أنشطة الخلية، فهي مركز التحكم.','الميتوكوندريا: تنتج معظم الطاقة التي تستخدمها الخلية.','الريبوسومات: تصنع البروتينات.']},
+{st:[[2.8,()=>reveal('wall')],[5,()=>{reveal('chl');on('sun')}],[7.4,()=>reveal('vac')],[8.5,()=>on('eq')]],
+ say:'الخلية النباتية تشترك مع الحيوانية في أجزاء كثيرة. وتتميز بجدار خلوي يدعم الخلية ويحميها. وبلاستيدات خضراء تصنع الغذاء بضوء الشمس. وفجوة عصارية كبيرة تخزن الماء.',
+ txt:['الخلية النباتية تشترك مع الحيوانية في الغشاء الخلوي والسيتوبلازم والنواة والميتوكوندريا والريبوسومات، وتتميز بثلاثة أجزاء.','الجدار الخلوي: طبقة قوية توفر الدعم والحماية وتحافظ على شكل الخلية.','البلاستيدات الخضراء: تحتوي على الكلوروفيل وتستقبل ضوء الشمس لتصنع الغذاء بالبناء الضوئي.','الفجوة العصارية الكبيرة: تخزن الماء ومواد أخرى وتساعد في الحفاظ على ضغط الخلية.']},
+{st:[[0.2,()=>on('t0')],[0.9,()=>on('t1')],[1.6,()=>on('t2')],[2.3,()=>on('t3')],[3,()=>on('t4')],[4,()=>on('t5')],[5,()=>on('t6')],[6,()=>on('t7')]],
+ say:'تشترك الخليتان في الغشاء والسيتوبلازم والنواة، وتتميز النباتية بالجدار والبلاستيدات والفجوة.',
+ txt:['الخليتان تشتركان في الغشاء الخلوي والسيتوبلازم والنواة والعضيات المشتركة، فهي أجزاء ضرورية لحياة أي خلية.','وتتميز الخلية النباتية عادةً بالجدار الخلوي والبلاستيدات الخضراء والفجوة العصارية الكبيرة، وهي أجزاء لا توجد في الخلية الحيوانية.']},
+{st:[[0.6,()=>on('q1')],[1.8,()=>on('q2')],[3,()=>on('th')],[4,()=>{off('th');on('a1')}],[4.8,()=>on('a2')],[5.5,()=>{on('f1');on('f2')}]],
+ say:'اختبر نفسك: ما الجزء الذي ينظم دخول المواد؟ وما المسؤول عن البناء الضوئي؟ الغشاء الخلوي والبلاستيدات الخضراء.',
+ txt:['حان وقت التقويم!','السؤال الأول: ما الجزء الذي ينظم دخول المواد إلى الخلية وخروجها؟','السؤال الثاني: ما الجزء الذي يساعد الخلية النباتية على البناء الضوئي؟','الإجابة: الغشاء الخلوي، والبلاستيدات الخضراء.','الخلية وحدة صغيرة، لكنها أساس بناء الكائنات الحية واستمرار الحياة.']}];
+Y.forEach((x,i)=>Object.assign(SC[i],x));
+function speak(t){if(muted||!('speechSynthesis'in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='ar-SA';u.rate=1;const v=speechSynthesis.getVoices().find(v=>v.lang.toLowerCase().startsWith('ar'));if(v)u.voice=v;speechSynthesis.speak(u)}
+function enter(i){cur=i;fired=[];$('#board').innerHTML=SC[i].b();const T=SC[i].txt;$('#sub').innerHTML=T.map((s,k)=>`<span id="s${k}">${s}</span>`).join(' ');const tot=T.reduce((n,s)=>n+s.length,0);let c=0;sents=T.map(s=>{const st=c/tot*D[i]*.9;c+=s.length;return st});speak(SC[i].say)}
+function loop(now){const t=(now-begin)/1000;if(t>=60){end();return}
+let i=0;while(i<5&&t>=S[i+1])i++;if(i!==cur)enter(i);const s=t-S[i];
+SC[i].st.forEach(([x,f],k)=>{if(!fired[k]&&s>=x){fired[k]=1;f()}});
+let k=0;sents.forEach((x,j)=>{if(s>=x)k=j});document.querySelectorAll('#sub span').forEach((e,j)=>e.classList.toggle('act',j==k));$('#sub').style.opacity=s<D[i]*.97?1:0;
+$('#mouth').setAttribute('ry',s<D[i]*.85?3+Math.abs(Math.sin(t*14))*11:3);
+$('#bar').style.width=t/.6+'%';raf=requestAnimationFrame(loop)}
+</script>
+</body></html>
